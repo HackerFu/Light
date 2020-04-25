@@ -1,8 +1,9 @@
 # Light
 ---
 
-**regex的小应用**
+这是一个小程序集，存放练习时写的比较有意思的小玩意儿
 
-使用regex和perl自动将txt格式文件转化为简单的tex文件，方便转化为pdf文件
+* coequa.py
 
-* [txt2tex.pl](https://github.com/HapHac/Light/blob/master/txt2tex.pl)
+用牛顿法解一元多次方程
+
