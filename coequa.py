@@ -1,10 +1,7 @@
 dy = 0.000001
 def newton(f,start):
 	print("=>",start)
-	if abs(f(start)) < 0.000000000001:
-		return start
-	else:
-		return newton(f,start-f(start)/((f(start+dy)-f(start))/dy))
+	return start if abs(f(start)) < 0.000000000001 else newton(f,start-f(start)/((f(start+dy)-f(start))/dy))
 def myequart(coeflist):
 	expr,length ="" if int(coeflist[0]) >= 0 else "-",len(coeflist)
 	for i in range(length):
